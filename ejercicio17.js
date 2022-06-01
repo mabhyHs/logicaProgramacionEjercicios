@@ -4,7 +4,7 @@ Pero para multiplos de tres imprimir "buzz" en lugar del numero y para multiplos
 function buzz(num){
     let result = "";
 
-    if(num % 5 && 3 === 0 ){
+    if(num % 5 ===0 && num % 3 === 0 ){
         result = "Buzzlightyear";
 
     }else if(num % 5 === 0){
@@ -24,4 +24,4 @@ function print(num){
        console.log(buzz(i));
     }
 };
-print(3);
+print(100);
