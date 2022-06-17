@@ -1,6 +1,7 @@
 const isPalindrome = require('../ejercicios/ejercicio2.js');
 const multiplicationTable = require('../ejercicios/ejercicio1.js');
 const coincidences = require('../ejercicios/ejercicio3.js');
+const invertStr = require('../ejercicios/ejercicio4.js');
 
 //Is palindome
 describe('isPalindrome', () => {
@@ -34,5 +35,12 @@ describe('multiplicationTable', () => {
 describe('coincidences', () => {
     it('should return the number of coincidences', () => {
         expect(coincidences('la casa de la pared es muy grande', 'casa')).toBe(1);
+    });
+});
+
+//invertStr
+describe('invertStr', () => {
+    it('should return the inverted string', () => {
+        expect(invertStr('mailen')).toBe('neliam');
     });
 });
