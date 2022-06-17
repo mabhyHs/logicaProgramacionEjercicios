@@ -1,5 +1,6 @@
 const isPalindrome = require('../ejercicios/ejercicio2.js');
 const multiplicationTable = require('../ejercicios/ejercicio1.js');
+const coincidences = require('../ejercicios/ejercicio3.js');
 
 //Is palindome
 describe('isPalindrome', () => {
@@ -26,5 +27,12 @@ describe('multiplicationTable', () => {
 9 x 5 = 45
 10 x 5 = 50
 `);
+    });
+});
+
+//Coincidences
+describe('coincidences', () => {
+    it('should return the number of coincidences', () => {
+        expect(coincidences('la casa de la pared es muy grande', 'casa')).toBe(1);
     });
 });
