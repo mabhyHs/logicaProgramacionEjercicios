@@ -22,3 +22,4 @@ Como hacerlo:
 console.log(
  cropString("hola como estas",6)
 );
+

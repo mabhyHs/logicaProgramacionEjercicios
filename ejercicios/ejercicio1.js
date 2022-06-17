@@ -10,4 +10,5 @@ function multiplicationTable(num){
     }
     return results;
 }
-console.log(multiplicationTable(5));
+
+
