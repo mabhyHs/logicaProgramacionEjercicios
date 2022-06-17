@@ -22,4 +22,4 @@ function isPalindrome(str){
     Otra opcion podría ser simplemente hacer un return ya que es sólo la comparacion y eso devuelve de por sí true o false
     return invertido === str*/
 }
-console.log(isPalindrome('Mailen'));
+module.exports=isPalindrome;

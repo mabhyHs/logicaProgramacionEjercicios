@@ -10,5 +10,7 @@ function multiplicationTable(num){
     }
     return results;
 }
+module.exports = multiplicationTable;
+
 
 
